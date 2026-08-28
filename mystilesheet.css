@@ -1,0 +1,107 @@
+@import"reset pedb.css";
+@import"vencedor.css";
+@import"pdeb.css";
+@import "servlets";
+@include servlets;
+is-superselector("div", "div" "div.pdeb", "div.vencedor")
+Result:true
+is-superselector("div.pdeb" ,"div.vencedor" "div", "div")
+Result:false
+is-superselector("div", "div" "div", "div")
+Result:true
+}
+body{
+background:#000ddd;
+margin:1%;
+border:0%;
+padding:absolute;
+}
+article h2{ 
+background-color:#000000;
+position :absolute;
+margin:5%;
+border:0%;
+padding:60%;
+font-color:#FFFFFF;
+}
+caption{
+position:absolute;
+margin:10%;
+border:0%;
+padding:50%;
+}
+
+aside fieldset{
+background-color:#FFFFFF;
+position :absolute;
+margin:10%;
+border:0%;
+padding:50%;
+font-color:#000000;
+}
+div.pdeb legend h3{
+position:middle;
+font-color:#000000;
+}
+/*##############################################*/
+div.vencedor figure{
+background-color:#DDDFFD;
+position:middle;
+margin:1%;
+border:0%;
+padding:relative;
+display:inline-block;
+font-color:#000000;
+}
+div.vencedor img{
+background-color:#6495ED;
+margin:1%;
+border:0%;
+padding:auto;
+width:100px;
+height:150px;
+position:middle;
+display:inline-block;
+image-orientation:vertical;
+}
+div.vencedor figure img: figcaption{
+background-color:#F0FFFF;
+margin:1%;
+border:0%;
+padding:auto;
+display:inline-block;
+width:100px;
+height:20px;
+font-size:14px, color:#000000;
+}
+/*##############################################*/
+div.pdeb figure{
+background-color:#DDDFFD;
+position:middle;
+margin:1%;
+border:0%;
+padding:relative;
+display:inline-block;
+font-color:#000000;
+}
+div.pdeb img{
+background-color:#6495ED;
+margin:1%;
+border:0%;
+padding:auto;
+width:100px;
+height:150px;
+position:middle;
+display:inline-block;
+image-orientation:vertical;
+}
+div.pdeb figure img: figcaption{
+background-color:#F0FFFF;
+margin:1%;
+border:0%;
+padding:auto;
+display:inline-block;
+width:100px;
+height:20px;
+font-size:14px, color:#000000;
+}
