@@ -1,2 +1,2 @@
-# Campanha_Politica_2027
-Campanha eleitoral e pesquisa
+# Campanha_Política2024
+Pagina web para campanha eleitoral

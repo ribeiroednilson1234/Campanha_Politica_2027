@@ -1,0 +1,3 @@
+INSERT INTO candidato(ID_CPF, Nome, Partido, email) VALUES (null,"22233355589", "Nostradamos1", "PEDB" "nostradamos1@gmail.com");
+INSERT INTO candidato(ID_CPF, Nome, Partido, email) VALUES (null,"11133355585", "Nostradamos2", "PEDB" "nostradamos2@gmail.com");
+INSERT INTO candidato(ID_CPF, Nome, Partido, email) VALUES (null,"44466655587", "Nostradamos3", "PEDB" "nostradamos3@gmail.com");

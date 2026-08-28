@@ -1,0 +1,9 @@
+CREATE DATABASE Pedb.Db;
+USE Pedb.DB;
+<?php
+pc_connect_close(int[Pedb.Db]);
+mysql_close(int[$Pedb.Db]);
+$Like_DB = mysql_connect("url:"./*/*/Pedb_Bb","root","Pedb_Db");
+mysql_select_db(Pedb_Db,[$Pedb_Db]) or { die [("Erro Feche a sessão anterior do "pc_connect" e Tente novamente,)"]};
+db_selec=mysql_select_db("Pedb_Db",$Pedb_Db);
+?>
