@@ -1,0 +1,9 @@
+ci:on
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub Princiaplribeiroednilson/Campanha_Politica_2027 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Principalribeiroednilson1234/Campanha_Politica_2027</url>
+   </repository>
+</distributionManagement>
+mvm deploy
