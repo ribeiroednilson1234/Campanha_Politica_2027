@@ -1,0 +1,125 @@
+body{
+background-color:#ffffff; 
+margin:3px;
+border:0px;
+}
+header{
+margin:0px;
+border:1px;
+padding:2%;
+background-color:#808080;
+float:center;
+}
+nav+h5{
+margin:1px;
+border:1px;
+padding:auto;
+background-color:#000000;
+}
+menu.topnav{
+  overflow: hidden;
+  background-color: #000000;
+}
+/* Style the topnav links */
+menu.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+/* Change color on hover */
+menu.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+caption{
+margin:0px;
+border:1px;
+padding:5%;
+background-color:#0000ff;
+}
+section{
+margin:0px;
+border:1px;
+padding:5%;
+background-color:#00ff00;
+}
+aside+span{
+margin:2px;
+border:2px;
+padding:25%;
+background-color:#c0c0c0;
+}
+footer{
+margin:0px;
+border:1px;
+padding:5%;
+background-color:#000000;
+}
+.f1>fieldeset+legend{
+display:table;
+padding:auto;
+margin:auto;
+border:auto;
+align:center;
+}
+.f1>form+label{align:center; border:1px; bgcolor:#0000ff; fontcolor:#000000;
+}
+.f1>form+input{align:center; border:1px; bgcolor:#0000ff; fontcolor:#000000;
+}
+aside+span:div.nova{
+background-color:#FFFFFF;
+float:center;
+display:table-row;
+position:horizontal;
+margin:10%;
+border:1%;
+padding:30%;
+font:#000000 justify center;
+}
+h3{
+float:center;
+position:top;
+font:#000000 justify center;
+}
+.nova figure{
+background-color:#DDDFFD;
+display:inline-block;
+position:middle;
+margin:4%;
+border:4%;
+padding:auto;
+}
+.nova figure img{
+background-color:#6495ED;
+margin:1%;
+border:1%;
+padding:auto;
+width:200px;
+height:350px;
+position:middle;
+display:inline-block;
+image-orientation:vertical
+}
+.nova figure img figcaption{
+background-color:#F0FFFF;
+margin:1%;
+border:1%;
+padding:auto;
+display:inline-block;
+width:200px;
+height:20px;
+font-size:14px,color:#000000;
+}
+.rodape{
+background-color:#9ddfff;
+float:top;
+display:table-row;
+position:horizontal;
+margin:1%;
+border:1%;
+padding:auto;
+font:#000000 justify center;
+}
