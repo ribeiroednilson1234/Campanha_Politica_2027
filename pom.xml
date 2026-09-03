@@ -6,4 +6,4 @@ ci:on
      <url>https://maven.pkg.github.com/Principalribeiroednilson1234/Campanha_Politica_2027</url>
    </repository>
 </distributionManagement>
-mvm deploy
+mvn deploy
