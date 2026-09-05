@@ -39,7 +39,7 @@ font:#000000,justify,center;
 }
 is-superselector("div", "div.nova")
 Result:true
-is-superselector("div.nova", "div")
+is-superselector("div.nova", "div", "div", "div", "div")
 Result:false
 is-superselector("div", "div")
 Result:true
