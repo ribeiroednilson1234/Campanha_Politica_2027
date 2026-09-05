@@ -37,6 +37,7 @@ border:0%;
 padding:2%;
 font:#000000,justify,center;
 }
+display: grid;
 is-superselector("div", "div.nova")
 Result:true
 is-superselector("div.nova", "div")
