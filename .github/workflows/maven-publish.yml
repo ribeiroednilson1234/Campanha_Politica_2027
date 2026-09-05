@@ -32,3 +32,13 @@ jobs:
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
+
+ci:on
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub Princiaplribeiroednilson/Campanha_Politica_2027 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Principalribeiroednilson1234/Campanha_Politica_2027</url>
+   </repository>
+</distributionManagement>
+mvn deploy --settings .ci/settings-deploy.xml -DeskipTest
