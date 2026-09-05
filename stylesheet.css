@@ -6,11 +6,11 @@ margin:1%;
 border:1%;
 padding:auto;
 }
-menu{
+menu{ 
 background:#DDDD00;
 border:1px;
 }
-menu.topnav{
+menu > li .topnav{
   overflow: hidden;
   background-color: #9DD000;
 }
