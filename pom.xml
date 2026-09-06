@@ -5,5 +5,12 @@ ci:on
      <name>GitHub Princiaplribeiroednilson/Campanha_Politica_2027 Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/Principalribeiroednilson1234/Campanha_Politica_2027</url>
    </repository>
+   <dependencies>
+ <dependency>
+    <groupId>com.ENVIAR</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </dependency>
+</dependencies>
 </distributionManagement>
 mvn deploy --settings .ci/settings-deploy.xml -DeskipTest
