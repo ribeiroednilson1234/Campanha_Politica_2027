@@ -4,7 +4,7 @@ ci:on
      <id>github</id>
      <name>GitHub => --ribeiroednilson/Campanha_Politica_2027 Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/ribeiroednilson1234/Campanha_Politica_2027</url>
-     <GITHUB-TOKEN>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</GITHUB-TOKEN>
+     <GITHUB_TOKEN>${{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</GITHUB-TOKEN}}>
    </repository>
    <dependencies>
  <dependency>
