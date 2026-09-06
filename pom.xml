@@ -8,7 +8,7 @@ ci:on
    </repository>
    <dependencies>
  <dependency>
-    <groupId>com.ENVIAR</groupId>
+    <groupId>com.campanha</groupId>
     <artifactId>test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </dependency>
