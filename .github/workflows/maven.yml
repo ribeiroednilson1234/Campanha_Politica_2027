@@ -10,9 +10,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "Principalribeiroednilson1234-main" ]
+    branches: [ "Principalribeiroednilson1234-main" ] . ["ribeiroednilson1234/Campanha_Politica_2027"]
   pull_request:
-    branches: [ "Principalribeiroednilson1234-main" ]
+    branches: [ "Principalribeiroednilson1234-main" ] . ["ribeiroednilson1234/Campanha_Politica_2027"]
 
 jobs:
   build:
