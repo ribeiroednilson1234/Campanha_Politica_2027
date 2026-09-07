@@ -20,7 +20,7 @@ else {
 	mkdir($DiretorioDestino, 0755, true);
 	} 
 	
-	if (move_uploaded_uploaded_files($FILES["Concursado>*"]["./campanha/enviar/tmp_Imagens"], $CaminhoCompleto)) {
+	if (move_uploaded_uploaded_files($FILES["Concursado>*"][".home/campanha/enviar/tmp_Imagens"], $CaminhoCompleto)) {
 	echo "<p style='color: #0000dd;'>Sucesso: Imagem enviada</p>";
 	echo "<img src='{$CaminhoCompleto}' width='110' height='180' alt='Concursado.*_enviado'>";
 	} else {
@@ -73,5 +73,6 @@ else {
 </form>{FORM}
 </caption>{caption}
 </aside>{ASIDE}
+	<footer><div class="rodape">&copy2018-Direitos Reservados-Licença GNU-2.0</div></footer>{FOOTER}
 </body>{BODY}
 </html>{HTML}
