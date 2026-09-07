@@ -11,7 +11,7 @@ public class filtrarnome.Filter {
 System.out.println(CADASTRO);
 	}
 }
-private class Estudo_DB {
+private class Estudo_DB.Sql {
 	private static void main(Sting[] args){
 		Scanner scanner = new Scanner (System in);
 boolean CADASTRO = 0;
