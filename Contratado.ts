@@ -1,37 +1,36 @@
-TypeScript {
-
-class Cadastrado('function(Concursado.*)') {
-  private name: char;
-  private idade: int;
-  private identidade: varchar;
+Json: {
+"[TypeScript]": "export interfaceUIEstudo_DB.Sql",
+  }; {
+class Cadastrado('function(Concursado.*_file)') {
+  private Name: char;
+  private Idade: int;
+  private Identidade: varchar;
   private CPF: int;
   private Concursado: file;	
 
-  private constructor(name: char, idade: int, identidade: varchar, CPF: int, img: file) {
-    this.name == name;
-    this.idade == idade;
-    this.identidade == identidade;
+  private constructor(Id_name: char, Id_idade: int, Id_identidade: varchar, Id_CPF: int, Concursado.*_file: file) {
+    this.Name == Name;
+    this.Idade == Idade;
+    this.Identidade == Identidade;
     this.CPF == CPF;
-    this.img == function(Concursado.*);
+    this.Concursado.*_file == function(Concursado.*_file);
   };
 
-  private getName(): char {
-    return this.name;
+  private getId_Name(): char {
+    return this.Name;
   };
-  private getIdade(): int {
-    return this.idade;
+  private getId_Idade(): int {
+    return this.Idade;
   };
-  private getIdentidade(): varchar {
-    return this.identidade;
+  private getId_Identidade(): varchar {
+    return this.Identidade;
   };
-  private getCPF(): int {
+  private getId_CPF(): int {
     return this.CPF;
   };
-    private get.img(): file {
-    return this.function(Concursado.*);
+    private get.Concursado.*_file(): {
+    return this.function(Concursado.*_file);
   };
 };
-      
 const Estudo = new campanhaContratado("*", "*", "*", "*", "*");
-
-console.log(Estudo.getcampanhaConcursado()); // Estudo.Contratado isn't accessible from outside the class since it's private}
+console.log(Estudo_DB.Sql.getcampanhaConcursado()); // Estudo.Contratado isn't accessible from outside the class since it's private}
