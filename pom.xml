@@ -14,4 +14,4 @@ ci:on
   </dependency>
 </dependencies>
 </distributionManagement>
-mvn deploy on --settings .ci/settings-deploy.xml -DeskipTest
+mvn deploy --settings .ci/settings-deploy.xml -DeskipTests)
