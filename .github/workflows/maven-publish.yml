@@ -39,6 +39,7 @@ ci:on
      <id>github</id>
      <name>GitHub 'ribeiroednilson/Campanha_Politica_2027' Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/'ribeiroednilson1234/Campanha_Politica_2027'</url>
+     <GitHub-Token>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</GitHub-Token>
    </repository>
 </distributionManagement>
-mvn deploy --settings .ci/settings-deploy.xml -DeskipTest
+mvn deploy --settings .ci/settings-deploy.xml -DeskipTests)
