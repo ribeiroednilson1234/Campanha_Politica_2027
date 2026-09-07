@@ -32,7 +32,7 @@ Idx_Identidade_varchar(18)[not null]
 Idx_Nome_char(50) [not null],
 Idade_int(3) [not null],
 Idx_CPF_int(11) [not null],
-  Concursado.*_file() [not null],
+Concursado.*_file() [not null],
 CREATE INDEX idx_CPF ON CONTRATADO (CPF);
 )ENGINE=InnoDB;
 GO
