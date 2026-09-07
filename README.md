@@ -4,5 +4,7 @@ Pode ser usado para outras finalidades no mesmo modelo, ex; eleições, estatís
 [Enviar]
 Hierarquia de diretórios;
 #Campanha/enviar/[paths.get(BD, estilos, java, php, TypeScript)]
-Recomendo colocar as imagens no mesmo nível de Concursado.html.
+Recomendo colocar as imagens no mesmo nível de Concursado.html, embora as recomendações sejam outras.
+Entretanto, a aplicação adota um padrão de armazenamento local para as imagens.
 Estrutura de desenvlvimento .Net
+#Licença Apache mista com GNU-Linux.
