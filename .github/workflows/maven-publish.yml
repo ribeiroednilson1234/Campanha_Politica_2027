@@ -43,3 +43,5 @@ ci:on
    </repository>
 </distributionManagement>
 mvn deploy --settings .ci/settings-deploy.xml -DeskipTests)
+
+[![.github/workflows/maven-publish.yml](https://github.com/ribeiroednilson1234/Campanha_Politica_2027/actions/workflows/maven-publish.yml/badge.svg?branch=ribeiroednilson1234%2FCampanha_Politica_2027)](https://github.com/ribeiroednilson1234/Campanha_Politica_2027/actions/workflows/maven-publish.yml)
