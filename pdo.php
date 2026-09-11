@@ -1,3 +1,17 @@
+//Standart Servlet imports
+import java.io.IOExcepiton;
+import java.PrintWriter;
+import jakarta.servlet.Exception;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+//core databese connectivity imports
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 <%
 var requestURL = "[https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json"];
 [https://www.Campanha.com/];
