@@ -103,7 +103,8 @@ $Concursado.*_file = htmlspecialchars($_POST['Concursado.*_file']);
 $CPF, 
 $nome, 
 $Idade, 
-$Identidade e $Concursado.*_file 
+$Identidade,
+$Concursado.*_file 
 
 Esta é a sua resposta gerada.</h3>";
     };
