@@ -1,14 +1,14 @@
 # These are supported funding model platforms
-github: [Principalribeiroednilson1234/sponsors]
-patreon: author:['Principalribeiroednilson1234/Campanha_Politica_2027']
-open_collective: e.g. doe@johns.com, ['Principalribeiroednilson1234/sponsors']
+github: ['https://github.com/sponsors/ribeiroednilson1234']
+patreon: author:['https://github.com/sponsors/ribeiroednilson1234']
+open_collective: e.g. doe@johns.com, ['https://github.com/sponsors/ribeiroednilson1234']
 ko_fi: url ['https://www.gnu.org/', 'https://www.ibm.com/br-pt', 'https://www.gov.br', 'https://www.tse.jus.br']
 tidelift: platform-name/Campanha e.g., npm/babel
 community_bridge: Campanha/.git e.g., cloud-foundry
-liberapay: tps://pt.liberapay.com/sign-up, ['Principalribeiroednilson1234/sponsors']
-issuehunt: https://issuehunt.io/signup, ['Principalribeiroednilson1234/Sponsors']
+liberapay: tps://pt.liberapay.com/sign-up, ['https://github.com/sponsors/ribeiroednilson1234']
+issuehunt: https://issuehunt.io/signup, ['https://github.com/sponsors/ribeiroednilson1234']
 lfx_crowdfunding: Campanha_Politica_2027/.git e.g., cloud-foundry
-polar: https://www.polar.com/en/foundation/['Principalribeiroednilson1234/sponsors']
+polar: https://www.polar.com/en/foundation/['https://github.com/sponsors/ribeiroednilson1234']
 buy_me_a_coffee: https://github.com/ribeiroednilson1234/sponsors e.g, url[https://sitesgoogle.com/view/ednilson-/página-inicial]
 custom: Replace with up to 4 custom sponsorship URLs e.g., ['https://www.gnu.org/', 'https://www.ibm.com/br-pt', 'https://www.gov.br', 'https://www.tse.jus.br']
 Direitos_autorais: Ednilson Alves Ribeiro
