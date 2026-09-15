@@ -1,7 +1,7 @@
 Json: {
 "[TypeScript]": "export interfaceUIEstudo_DB.Sql",
   }; {
-class Cadastrado('function(Concursado.*_file)') {
+private class Cadastrado('Estudo') {
   private Name: char;
   private Idade: int;
   private Identidade: varchar;
