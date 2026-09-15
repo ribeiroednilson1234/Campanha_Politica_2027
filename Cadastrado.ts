@@ -1,7 +1,7 @@
 Json: {
 "[TypeScript]": "export interfaceUIEstudo_DB.Sql",
   }; {
-class concursadoAprovado {
+private class concursadoAprovado('Estudo') {
   private name: char;
   private idade: int;
   private identidade: varchar;
@@ -31,5 +31,5 @@ class concursadoAprovado {
     return this.Concursado.*_file;
   };
 };
-const Estudo_DB.Sql = new concursadoContratado('*', '*', '*', '*', '*');
+const Estudo_DB.Sql = new concursadoContratado('', '', '', '', '');
 console.log(Estudo_DB.Sql.getconcursadoArpovado()); // Estudo.Cadastrado isn't accessible from outside the class since it's private}
