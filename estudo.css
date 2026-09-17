@@ -77,12 +77,12 @@ position:horizontal;
 margin:10%;
 border:1%;
 padding:30%;
-font:#000000 justify center;
+font:#000000,justify center;
 }
 h3{
 float:center;
 position:top;
-font:#000000 justify center;
+font:#000000,justify center;
 }
 .nova figure{
 background-color:#DDDFFD;
@@ -121,5 +121,5 @@ position:horizontal;
 margin:1%;
 border:1%;
 padding:auto;
-font:#000000 justify center;
+font:#000000,justify center;
 }
