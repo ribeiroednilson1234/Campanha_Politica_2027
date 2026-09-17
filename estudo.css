@@ -1,11 +1,3 @@
-{
-  "@jupyterlab/settingeditor-extension:form-ui": {
-    "toSkip": ["my-extension:plugin-to-hide", "another-extension:config-plugin"]
-  }
-}
-*:has(.*) {
-display: grid;
-}
 body{
 background-color:#ffffff; 
 margin:3px;
