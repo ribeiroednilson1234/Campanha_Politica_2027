@@ -65,9 +65,9 @@ margin:auto;
 border:auto;
 align:center;
 }
-.f1>form+label{align:center; border:1px; bgcolor:#0000ff; fontcolor:#000000;
+.f1>form+label{align:center; border:1px; color:#0000ff; font:#000000;
 }
-.f1>form+input{align:center; border:1px; bgcolor:#0000ff; fontcolor:#000000;
+.f1>form+input{align:center; border:1px; color:#0000ff; font:#000000;
 }
 aside+span:div.nova{
 background-color:#FFFFFF;
