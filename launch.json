@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "editor-browser",
+            "program":${"/ovni/Campanha/enviar/index.html}/app.js"},
+            "request": "attach",
+            "name": "Open Campanha/enviar/estilos/estudo.css",
+            "url": "file: //home/ovni/Campanha/enviar/estilos/estudo.css",
+            "url": "file: //home/ovni/Campanha/enviar/DB/Etudo_DB.Sql",
+            "url": "file: //home/ovni/Campanha/enviar/TypeScript/",
+            "url": "file: //home/ovni/Campanha/enviar/java/",
+	    "url": "file: //home/ovni/Campanha/enviar/php/php.ini",
+	    "url": "file: ~./usr/local/bin/jupyter-nothebook --port 8887",
+	    "url": "file: ~./usr/local/bin/voila",
+	    "url": "file: ~./usr/local/bin/normalizer",
+	    "url": "file: ~./usr/local/bin/jupyter-labhub",
+	    "url": "file: ~./usr/local/bin/jupyter-nbconvert",
+	    "url": "file: ~./usr/local/bin/jsonschema",
+	    }
+    ]
+}
