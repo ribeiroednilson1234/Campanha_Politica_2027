@@ -9,7 +9,7 @@ ci:on
    <dependencies>
  <dependency>
     <groupId>com.campanha</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>enviar</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </dependency>
 </dependencies>
