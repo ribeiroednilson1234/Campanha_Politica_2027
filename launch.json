@@ -6,7 +6,7 @@
     "configurations": [
         {
             "type": "editor-browser",
-            "program":${"/ovni/Campanha/enviar/index.html}/app.js"},
+            "program":${"/ovni/Campanha/enviar/index.htm"/app.js},
             "request": "attach",
             "name": "Open Campanha/enviar/estilos/estudo.css",
             "url": "file: //home/ovni/Campanha/enviar/estilos/estudo.css",
