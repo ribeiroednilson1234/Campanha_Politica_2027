@@ -1,30 +1,33 @@
+@import url("estudo.css");
+@import
+url(".//home/ovni/Campanha/enviar/estilos/estudo.css");
 /* Fluid grid containers that requiere */
 .card-grid {
-display: grid-flex;
+display:grid;
 grid-tamplete.columns: repeat(auto-fit, minmax(245px, 4fr));
-gap: 10px;
-flex-wrap: wrap;
+gap:10px;
+flex-wrap:wrap;
 }
 /* Style the header */
-.@media (min-width: 110px) {
+.@media (min-width:110px) {
   box-sizing: border-box;
-  grid: auto auto auto auto;
+  grid:auto auto auto auto;
 }
 /* Style the header */
 *{
-  box-sizing: border-box;
-  grid: auto;
+  box-sizing:border-box;
+  grid:inline-grid;
 }
-body {
+body{
 background-color:#000000;
-  margin: 3px;
-  border: 0px;
+  margin:3px;
+  border: 0;
 }
 /* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
+.header{
+  background-color:#f1f1f1;
+  padding:10px;
+  text-align:center;
 }
 /* Style the top navigation bar */
 .topnav + menu > li{
@@ -32,27 +35,27 @@ background-color:#000000;
   background-color: #333ddd;
 }
 /* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+.topnav a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px;
+  text-decoration:none;
 }
 /* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd000;
-  color: #000000;
+.topnav a:hover{
+  background-color:#ddd000;
+  color:#000000;
 }
 body{
 background-color:#836FFF; 
 margin:3px;
-border:0px;
+border:0;
 }
 header{
-margin:0px;
-border:1px;
+margin:3px;
+border:0;
 padding:2%;
 background-color:#808080;
 float:center;
@@ -80,30 +83,28 @@ display:table-row;
 padding:40%;
 margin:2px;
 border:2px;
-font:center;
 }
-div .f1 > form + label{font align:center; border:1px; color:#0000ff; font face:"monospace";
-}
-div .f1 > form + input{font align:center; border:1px; color:#0000ff; font face:"monospace";
-}
+div .f1 > form + label{font:center; border:1px; color:#0000ff;}
+div .f1 > form + input{font:center; border:1px; color:#0000ff;}
 aside + .span > .nova{
 background-color:#FFFFFF;
-float:center;
+float:none;
 display:table-row;
-position:horizontal;
+display:inline-block;
+image-orientation:from-image;
 margin:10%;
-border:1%;
+border:0;
 padding:24%;
-font:#000000, face:"monospace", aligne:center;
+color:#000000; 
 }
 h3{
-float:center;
+float:none;
 position:top;
-font:#000000 justify center;
+font:#000000;
 }
 div.f2 + .nova{
 background-color:#DDDFFD;
-display:block-flex;
+display:inline-block;
 position:middle;
 margin:4%;
 border:0%;
@@ -117,18 +118,41 @@ padding:none;
 width:100px;
 height:175px;
 position:middle;
-display:block-flex;
-image-orientation:vertical
+display:inline-block;
+image-orientation:from-image;
 }
 .nova figure img figcaption{
 background-color:#F0FFFF;
 margin:1%;
 border:0%;
 padding:none;
-display:block-flex;
+display:block-inline;
 width:100px;
 height:20px;
-font-size:14px, face:"monospace", color:#000000;
+font-size:14px;
+color:#000000;
+}
+.form figure img{
+background-color:#6495ED;
+margin:1%;
+border:0%;
+padding:none;
+width:100px;
+height:175px;
+position:middle;
+display:inline-block;
+image-orientation:from-image;
+}
+.form figure img figcaption{
+background-color:#F0FFFF;
+margin:1%;
+border:0%;
+padding:none;
+display:block-inline;
+width:100px;
+height:20px;
+font-size:14px;
+color:#000000;
 }
 .rodape{
 background-color:#9ddfff;
@@ -138,14 +162,16 @@ position:fixed;
 margin:1%;
 border:1%;
 padding:none;
-font:#000000, size:14px, face:"monospace";
+font:#000000;
+size:14px;
 }
 .footer{
 position:fixed;
-background-color: #F1F1F2;
-text-align: center;
-padding: 10px;
-margin: 3px;
-border: 0px;
-font-size:14px, face:"monospace", color:#000000;
+background-color:#F1F1F2;
+text-align:center;
+padding:10px;
+margin:3px;
+border:0px;
+font-size:14px;
+color:#000000;
 }
