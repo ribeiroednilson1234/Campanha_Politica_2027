@@ -4,7 +4,7 @@ memory_limit = 256M;
 upload_max_filesize = 32M;
 post_max_size = 32M;
 max_execution_time = 300";
-cgi.force_redrect = .$_SERVER['DOCUMENT_ROOT'] dirmane(['home/ovni/Campanha/enviar/']);
+cgi.force_redirect = .$_SERVER['DOCUMENT_ROOT'] dirmane(['home/ovni/Campanha/enviar/']);
 doc_root string = [.home/ovni/Campanha/enviar;enviar.com];
 auto_global_jit bool;
 enable_post_data_reading bool;
