@@ -13,12 +13,8 @@
             "url": "file: //home/ovni/Campanha/enviar/DB/Etudo_DB.Sql",
             "url": "file: //home/ovni/Campanha/enviar/TypeScript/",
             "url": "file: //home/ovni/Campanha/enviar/java/",
-	    "url": "file: //home/ovni/Campanha/enviar/php/php.ini",
-	    "url": "file: ~./usr/local/bin/jupyter-nothebook --port 8887",
-	    "url": "file: ~./usr/local/bin/voila",
+	    "url": "file: //home/ovni/Campanha/enviar/php/*.php",
 	    "url": "file: ~./usr/local/bin/normalizer",
-	    "url": "file: ~./usr/local/bin/jupyter-labhub",
-	    "url": "file: ~./usr/local/bin/jupyter-nbconvert",
 	    "url": "file: ~./usr/local/bin/jsonschema",
 	    }
     ]
