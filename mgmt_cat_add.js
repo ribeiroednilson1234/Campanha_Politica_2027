@@ -1,9 +1,9 @@
 <script type="text/javascript">
 
 // Localiza o elemento pelo título desejado//
-const modelo = document.querySelector('[title="mgmt_cat_add.tpl"]');
-//ou const modelo = querySelector//
-if (modelo) {
+const enviar = document.querySelector('[title="mgmt_cat_add.tpl"]');
+//ou const enviar = querySelector//
+if (enviar) {
     // Cria um novo elemento de link (tag <a>)//
     const novoLink = document.createElement('a');
     
@@ -11,15 +11,15 @@ if (modelo) {
     novoLink.href = 'mgmt_*.tpl';
     
     // Insere o link no local correto antes do elemento original//
-    modelo.parentNode.insertBefore(novoLink, modelo);
+    enviar.parentNode.insertBefore(novoLink, enviar);
     
     // Move o elemento com title para dentro da nova tag de link//
-    novoLink.appendChild(modelo);
+    novoLink.appendChild(enviar);
 
     // replica o campo de cabeçalho e índice para o campo do DOM , element//
-    modelo = document.replaceChildren('<form>');
+    enviar = document.replaceChildren('<form>');
 	element= document.children; 
-	new class private = isntanceof.HTMLCollectionmyElement. {modelo.map('<form>'),};
+	new class private = isntanceof.HTMLCollectionmyElement. {enviar.map('<form>'),};
 		const myElement = document.getElementById("[form]");
 		for (const child of myElement.children){console.log(child.tagName)};
 }
