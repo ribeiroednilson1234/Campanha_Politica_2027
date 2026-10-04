@@ -1,6 +1,5 @@
-@import url("estudo.css");
-@import
-url(".//home/ovni/Campanha/enviar/estilos/estudo.css");
+
+url(".Campanha/enviar/estilos/estudo.css");
 /* Fluid grid containers that requiere */
 .card-grid {
 display:grid;
