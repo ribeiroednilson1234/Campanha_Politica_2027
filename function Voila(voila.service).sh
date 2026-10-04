@@ -5,7 +5,7 @@
 #voila/notebooks/basic.ipynb. Ative o serviço com: (Depois acesse o yourdomain.com o aplicativo voila)
 #!/bin/bash
 [systemd]
-DocumentRoot=/home/ovni/Campanha/enviar/
+DocumentRoot=/home/ovni/Campanha/enviar/DB/Estudo_DB.Sql
 systemctl enable voila.service
 systemctl start voila.service
 
