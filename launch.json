@@ -9,7 +9,7 @@
             "program":${"/ovni/Campanha/enviar/index.htm"/app.js},
             "request": "attach",
             "name": "Open Campanha/enviar/estilos/estudo.css",
-            "url": "file: //home/ovni/Campanha/enviar/DB/Etudo_DB.Sql",
+            "url": "file: //home/ovni/Campanha/enviar/DB/Estudo_DB.Sql",
             "url": "file: //home/ovni/Campanha/enviar/TypeScript/",
             "url": "file: //home/ovni/Campanha/enviar/java/",
 	    "url": "file: //home/ovni/Campanha/enviar/php/*.php",
