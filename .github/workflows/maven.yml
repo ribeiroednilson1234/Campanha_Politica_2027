@@ -12,7 +12,7 @@ on:
   push:
     branches: ["ribeiroednilson1234/Campanha_Politica_2027"]
   pull_request:
-    branches: [ "Principalribeiroednilson1234-main" ] . ["ribeiroednilson1234/Campanha_Politica_2027"]
+    branches: ["ribeiroednilson1234/Campanha_Politica_2027"]
 
 jobs:
   build:
